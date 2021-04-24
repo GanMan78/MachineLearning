@@ -1,1 +1,2 @@
-Demo program for understanding of matplot lib librabry better. Created some graphs and plots using matplotlib.
+Demo program for better understanding of matplot lib library. 
+Tried demonstrating data visuali using different types of graphs and plots using matplotlib.
