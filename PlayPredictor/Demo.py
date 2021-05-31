@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import preprocessing
 
-def MarvellousPredictor(path):
+def PlayPredictor(path):
     data=pd.read_csv(path)
     print("Dataset loaded successfully with the size",len(data))
     
@@ -56,7 +56,7 @@ def main():
     print("Enter the path of the file which contains dataset")
     #path=input()
     
-    MarvellousPredictor("PlayPredictor.csv")
+    PlayPredictor("PlayPredictor.csv")
     
     
 if __name__=="__main__":
