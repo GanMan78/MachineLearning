@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
-def MarvellousHeadBrain(Name):
+def MLHeadBrain(Name):
     dataset=pd.read_csv(Name)
     print("Size of our dataset is:",dataset.shape)
     
@@ -15,10 +15,6 @@ def MarvellousHeadBrain(Name):
     obj.fit(X,Y)
     
     output=obj.predict(X)
-    # Dataset=pd.read_csv("Test.csv")
-    # X_new=Dataset["Head Size"].values
-    # output=obj.predict(X_new)
-    # print("Expected result is: ",output)
     
     rsquare=obj.score(X,Y)
     
@@ -28,7 +24,7 @@ def main():
     
     #print("Enter the name of the dataset")
     #name=input()
-    MarvellousHeadBrain("MarvellousHeadBrain.csv")
+    MLHeadBrain("HeadBrain.csv")
 
 if __name__=="__main__":
     main()
