@@ -12,7 +12,7 @@ def MeanData(arr):
         
     return(sum/size)
 
-def MarvellousHeadBrain(Name):
+def MLHeadBrain(Name):
     dataset=pd.read_csv(Name)
     print("Size of our dataset is:",dataset.shape)
     
@@ -63,7 +63,7 @@ def main():
     
     #print("Enter the name of the dataset")
     #name=input()
-    MarvellousHeadBrain("MarvellousHeadBrain.csv")
+    MLHeadBrain("HeadBrain.csv")
 
 if __name__=="__main__":
     main()
